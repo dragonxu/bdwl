@@ -1,0 +1,212 @@
+.pay-page .one-package-box{
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.pay-page .one-package-box .pkg-goods-box{
+	background:#fff;
+	overflow:hidden;
+}
+.pay-page .one-package-box .pkg-goods-box .one-item{
+	padding:0.25rem;
+	height:1.70rem;
+	border-bottom:1px solid #f0f0f0;
+	position:relative;
+	overflow:hidden;
+}
+.pay-page .one-package-box .pkg-goods-box .one-item .pic{
+	width:1.20rem;
+	height:1.20rem;
+	display:block;
+	overflow:hidden;
+	float:left;
+}
+.pay-page .one-package-box .pkg-goods-box .one-item .info-box{
+	width:4.20rem;
+	display:block;
+	overflow:hidden;
+	float:left;
+	margin-left:0.15rem;
+}
+.pay-page .one-package-box .pkg-goods-box .one-item .info-box .name{
+	height:0.50rem;
+	display:block;
+	overflow:hidden;
+	color:#030303;
+	font-size:0.34rem;
+	line-height:0.50rem;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	margin-top:0.10rem;
+}
+.pay-page .one-package-box .pkg-goods-box .one-item .info-box .order-no{
+	display:block;
+	overflow:hidden;
+	color:#bababa;
+	font-size:0.26rem;
+}
+.pay-page .one-package-box .pkg-goods-box .one-item .price{
+	width:1.60rem;
+	overflow:hidden;
+	font-size:0.28rem;
+	color:#ff0000;
+	text-align:right;
+	position:absolute;
+	right:0.25rem;
+	top:0.70rem;
+}
+.pay-page .one-package-box .pkg-summary{
+	background:#fffcf0;
+	padding:0.25rem;
+	overflow:hidden;
+	font-size:0.26rem;
+	color:#666;
+	text-align:right;
+}
+.pay-page .one-package-box .pkg-summary .price{
+	font-size:0.40rem;
+	color:#666;
+	font-weight:bold;
+}
+.pay-page .one-package-box .pkg-summary .price .unit{
+	font-size:0.20rem;
+	color:#666;
+}
+.pay-page .one-package-box .pkg-summary .old-price{
+	font-size:0.22rem;
+	color:#bababa;
+	text-decoration:line-through;
+}
+.pay-page .one-package-box .pkg-summary .tip{
+	font-size:0.26rem;
+	color:#bababa;
+}
+.pay-page .one-package-box .pkg-summary .stress{
+	color:#ff0000;
+}
+/*优惠券使用*/
+.pay-page .coupon-use-box{
+	background:#fff;
+	height:1.00rem;
+	padding:0.25rem;
+	position:relative;	
+	display:block;
+	overflow:hidden;
+	margin-bottom:0.20rem;
+}
+.pay-page .coupon-use-box .tit{
+	font-size:0.30rem;
+	color:#030303;
+	line-height:0.50rem;
+}
+.pay-page .coupon-use-box .extra-box{
+	height:0.50rem;
+	overflow:hidden;
+	line-height:0.50rem;
+	text-align:right;
+	position:absolute;
+	right:0.25rem;
+	top:0.25rem;  
+}
+.pay-page .coupon-use-box .extra-box .txt{
+	font-size:0.26rem;
+	color:#bababa;
+	vertical-align:middle;
+}
+.pay-page .coupon-use-box .extra-box .arrow{
+	background:url(../images/right-arrow.png) no-repeat right center;
+	background-size:0.16rem 0.26rem;
+	width:0.20rem;
+	height:0.50rem;
+	display:inline-block;
+	overflow:hidden;
+	vertical-align:middle;
+	margin-left:0.05rem;
+}
+.pay-page .pay-method-box{
+	background:#fff;
+	padding:0.25rem;
+	overflow:hidden;
+}
+.pay-page .pay-method-box .title{
+	display:block;
+	overflow:hidden;
+	font-size:0.30rem;
+	color:#333;
+	margin-bottom:0.50rem;
+}
+.pay-page .pay-method-box .list-box .one-item{
+	height:0.50rem;
+	position:relative;
+	overflow:hidden;
+	line-height:0.50rem;
+	margin-bottom:0.30rem;
+}
+.pay-page .pay-method-box .list-box .one-item:after{
+	content:" ";
+	width:0.36rem;
+	height:0.36rem;
+	border:0.02rem solid #888;
+	border-radius:0.18rem;
+	display:block;
+	overflow:hidden;
+	position:absolute;
+	right:0;
+	top:0.12rem;
+}
+.pay-page .pay-method-box .list-box .one-item.active:after{
+	background:#ffd200 url(../images/ok-icon.png) no-repeat center center;
+	background-size:0.20rem 0.14rem;
+	border:0.02rem solid #ffd200;
+}
+.pay-page .pay-method-box .list-box .one-item .way-icon{
+	background-repeat:no-repeat;
+	background-position:0 center;
+	width:0.50rem;
+	height:0.50rem;
+	display:inline-block;
+	overflow:hidden;
+	vertical-align:middle;
+}
+.pay-page .pay-method-box .list-box .one-item .pm-ye-icon{
+	background-image:url(../images/pm-ye-icon.png);
+	background-size:0.36rem 0.37rem;
+}
+.pay-page .pay-method-box .list-box .one-item .pm-wx-icon{
+	background-image:url(../images/pm-wx-icon.png);
+	background-size:0.35rem 0.35rem;
+}
+.pay-page .pay-method-box .list-box .one-item .txt{
+	font-size:0.28rem;
+	color:#000;
+	vertical-align:middle;
+}
+.pay-page .pay-method-box .list-box .one-item .stress-box{
+	background:#ff0000;
+	height:0.28rem;
+	padding:0 0.10rem;
+	border-radius:0.14rem;
+	display:inline-block;
+	overflow:hidden;
+	font-size:0.20rem;
+	color:#fff;
+	line-height:0.28rem;	
+	vertical-align:middle;
+	margin-left:0.05rem;
+}
+.pay-page .pay-method-box .pay-btn{
+	background:#ffd200;
+	width:5.80rem;
+	height:1.00rem;
+	border-radius:0.50rem;
+	box-shadow:0 0.05rem 0.10rem #efefef;
+	display:block;
+	overflow:hidden;
+	font-size:0.34rem;
+	color:#090707;
+	line-height:1.00rem;
+	text-align:center;
+	margin:0.80rem auto 0 auto;
+}
+.pay-page .pay-method-box .pay-btn .stress{
+	color:#ff0000;
+}

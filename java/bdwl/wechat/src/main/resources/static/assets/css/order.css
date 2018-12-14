@@ -1,0 +1,186 @@
+.status-tab-box{
+	background:#f8f8f8;
+	height:0.80rem;
+	border-bottom:1px solid #f0f0f0;
+	overflow:hidden;
+}
+.status-tab-box .swiper-slide{
+	width:auto;
+	float:left;
+}
+.status-tab-box .one-item{
+	height:0.80rem;
+	padding:0 0.15rem;
+	display:inline-block;
+	position:relative;
+	overflow:hidden;
+	font-size:0.28rem;
+	color:#999;
+	line-height:0.80rem;
+	margin-right:0.50rem;
+}
+.status-tab-box .one-item:after{
+	background:#ffd200;
+	content:" ";
+	height:0.05rem;
+	border-radius:0.25rem;
+	display:none;
+	overflow:hidden;
+	position:absolute;
+	bottom:1px;
+	left:0.15rem;
+	right:0.15rem;
+}
+.status-tab-box .one-item.active{
+	color:#ffd200;
+}
+.status-tab-box .one-item.active:after{
+    display:block;
+}
+
+.one-package-box{
+	background:#fff;
+	overflow:hidden;
+	margin-bottom:0.20rem;
+}
+.one-package-box .pkg-head{
+	height:0.90rem;
+	padding:0.25rem;
+	border-bottom:1px solid #f0f0f0;
+	position:relative;
+	overflow:hidden;
+}
+.one-package-box .pkg-head .tit-box{
+	width:4.50rem;
+	height:0.40rem;
+	display:block;
+	overflow:hidden;
+	font-size:0.26rem;
+	color:#333;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.one-package-box .pkg-head .tit-box .mark{
+	background:url(../images/shop-icon.png) no-repeat 0 center;
+	background-size:0.36rem 0.32rem;
+	width:0.36rem;
+	height:0.40rem;
+	display:inline-block;
+	overflow:hidden;
+	vertical-align:middle;
+	margin-right:0.10rem;
+}
+.one-package-box .pkg-head .status-txt{
+	width:1.50rem;
+	height:0.40rem;
+	display:block;
+	overflow:hidden;
+	font-size:0.26rem;
+	text-align:right;
+	line-height:0.40rem;
+	position:absolute;
+	top:0.25rem;
+	right:0.25rem;
+}
+.one-package-box .status-txt.ok{
+	color:#ffd200;
+}
+.one-package-box .status-txt.fail{
+	color:#ff0000;
+}
+.one-package-box .pkg-goods-box .one-item{
+	padding:0.25rem;
+	height:2.00rem;
+	border-bottom:1px solid #f0f0f0;
+	position:relative;
+	overflow:hidden;
+}
+.one-package-box .pkg-goods-box .one-item .pic{
+	width:1.50rem;
+	height:1.50rem;
+	display:block;
+	overflow:hidden;
+	float:left;
+}
+.one-package-box .pkg-goods-box .one-item .name{
+	width:3.60rem;
+	display:block;
+	overflow:hidden;
+	color:#333;
+	font-size:0.26rem;
+	margin-left:0.15rem;
+	float:left;
+}
+.one-package-box .pkg-goods-box .one-item .price{
+	width:1.60rem;
+	overflow:hidden;
+	font-size:0.40rem;
+	color:#333;
+	font-weight:bold;
+	text-align:right;
+	position:absolute;
+	right:0.25rem;
+	top:0.25rem;
+}
+.one-package-box .pkg-goods-box .one-item .price .unit{
+	font-size:0.20rem;
+}
+.one-package-box .pkg-goods-box .one-item .num{
+	width:1.60rem;
+	overflow:hidden;
+	font-size:0.24rem;
+	color:#ccc;
+	text-align:right;
+	position:absolute;
+	right:0.25rem;
+	top:1.15rem;
+}
+.one-package-box .pkg-summary{
+	padding:0.25rem;
+	border-bottom:1px solid #f0f0f0;
+	overflow:hidden;
+	font-size:0.26rem;
+	color:#666;
+	text-align:right;
+}
+.one-package-box .pkg-summary .price{
+	font-size:0.40rem;
+	color:#666;
+	font-weight:bold;
+}
+.one-package-box .pkg-summary .price .unit{
+	font-size:0.20rem;
+	color:#666;
+}
+.one-package-box .pkg-summary .old-price{
+	font-size:0.22rem;
+	color:#bababa;
+	text-decoration:line-through;
+}
+.one-package-box .pkg-summary .stress{
+	font-size:0.26rem;
+	color:#ff0000;
+}
+.one-package-box .pkg-operate{
+	padding:0.25rem;
+	border-bottom:1px solid #f0f0f0;
+	overflow:hidden;
+	text-align:right;
+}
+.one-package-box .pkg-operate .order-btn{
+	height:0.50rem;
+	padding:0 0.20rem;
+	border-radius:0.25rem;
+	display:inline-block;
+	overflow:hidden;
+	font-size:0.26rem;
+	line-height:0.50rem;
+}
+.one-package-box .pkg-operate .order-btn.ok{
+	border:1px solid #666;
+	color:#666;	
+}
+.one-package-box .pkg-operate .order-btn.fail{
+	border:1px solid #ffd200;
+	color:#ffd200;	
+}

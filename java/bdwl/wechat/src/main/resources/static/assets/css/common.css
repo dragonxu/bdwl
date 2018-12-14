@@ -1,0 +1,211 @@
+@charset "utf-8";
+*,*:before,*:after{box-sizing:border-box;}
+body{
+  background:#f8f8f8;
+  font-family:"Microsoft Yahei", Arial, Verdana, Helvetica, sans-serif;font-size:12px;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,form,label,table,caption,tbody,tfoot,thead,tr,th,td,textarea {
+  border:0 none;font-size:12px;font-style:normal;margin:0;padding:0;outline:0 none;text-decoration:none;text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+ol,ul,li{list-style:outside none none;}
+img{max-width:100%;}
+a{color:#444;text-decoration:none;}
+a * {cursor:pointer;}
+a img {border:0 none;}
+a,button,input,li,p,div{-webkit-tap-highlight-color:rgba(255, 0, 0, 0);}
+input:focus,button:focus{outline:none;}
+select{background:none;}
+.clearfix:after {content:".";display:block;height:0;font-size:0;clear:both;visibility:hidden;}
+.clear{zoom:1;}
+.minpad{width:1px;height:0px;display:block;overflow:hidden;clear:both;}
+.hide{display:none !important;}
+.w50{width:50px !important;}
+.w80{width:80px !important;}
+.w100{width:100px !important;}
+.w150{width:150px !important;}
+.w200{width:200px !important;}
+.w250{width:250px !important;}
+.w300{width:300px !important;}
+.red{color:#c40000;}
+.fl{float:left;}
+.hide{display:none !important;}
+
+@font-face{
+  font-family:'FontAwesome';
+  src:url('font/fontawesome-webfont.eot?v=3.0.1');
+  src:url('font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+  url('font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+  url('font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+.fa{font-family:'FontAwesome';display:inline-block;font-weight:normal;}
+.fa-dbDownArrow:before {content:"\f103";}
+.fa-prev:before {content:"\f104";}
+.fa-next:before {content:"\f105";}
+/*common*/
+.body-white{background:#fff;}
+.no-more-data{
+  padding:0.15rem;
+  position:relative;
+  overflow:hidden;
+  font-size:0.18rem;
+  color:#8c8c8c;
+  text-align:center;
+  clear:both;
+}
+
+.app-wrapper{
+  width:100%;
+  max-width:7.50rem;
+  position:relative;
+  overflow:hidden;
+  margin:0 auto;
+}
+/*支付结果页面*/
+.pay-result-page .main-box{
+  padding:0.40rem 0.25rem;
+  overflow:hidden;
+}
+.pay-result-page .main-box .mark-box{
+  display:block;
+  overflow:hidden;
+  text-align:center;
+}
+.pay-result-page .main-box .mark-box i{
+  background-size:1.64rem 1.64rem;
+  background-repeat:no-repeat;
+  width:1.64rem;
+  height:1.64rem;
+  display:inline-block;
+  overflow:hidden;
+}
+.pay-result-page .main-box .mark-box .ok{
+  background-image:url(../images/pay-ok-icon.png);  
+}
+.pay-result-page .main-box .mark-box .fail{
+  background-image:url(../images/pay-fail-icon.png);  
+}
+.pay-result-page .main-box .result-box{
+  margin-top:0.80rem;
+}
+.pay-result-page .main-box .result-box span{
+  display:block;
+  overflow:hidden;
+  text-align:center;
+}
+.pay-result-page .main-box .result-box .status{
+  color:#030303;
+  font-size:0.36rem;
+  font-weight:bold;
+}
+.pay-result-page .main-box .result-box .tip{
+  color:#bababa;
+  font-size:0.28rem;
+  margin-top:0.36rem;
+}
+.pay-result-page .main-box .act-btn{
+  background:#ffd200;
+  width:5.80rem;
+  height:1.00rem;
+  border-radius:0.50rem;
+  box-shadow:0 0.05rem 0.10rem #efefef;
+  display:block;
+  overflow:hidden;
+  font-size:0.34rem;
+  color:#090707;
+  line-height:1.00rem;
+  text-align:center;
+  margin:1.20rem auto 0 auto;
+}
+/*个人中心*/
+.user-center-page .uc-head-box{
+  background:#fff;
+  height:2.44rem;
+  padding:0.50rem 0.40rem;
+  position:relative;
+  overflow:hidden;
+}
+.user-center-page .uc-head-box .uicon{
+  width:1.44rem;
+  height:1.44rem;
+  border-radius:0.72rem;
+  display:block;
+  overflow:hidden;
+  float:left;
+}
+.user-center-page .uc-head-box .info-box{
+  width:5.00rem;
+  height:1.44rem;
+  padding-top:0.50rem;
+  overflow:hidden;
+  float:left;
+  margin-left:0.20rem;
+}
+.user-center-page .uc-head-box .info-box .name{
+  font-size:0.36rem;
+  color:#000;
+}
+.user-center-page .uc-nav-box{
+  background:#fff;
+  padding:0.50rem 0 0 0;
+  overflow:hidden;
+  margin-top:0.20rem;
+}
+.user-center-page .uc-nav-box .one-item{
+  height:0.60rem;
+  padding:0 0.25rem;
+  position:relative;
+  overflow:hidden;
+  margin-bottom:0.50rem;
+  display: block;
+}
+.user-center-page .uc-nav-box .one-item .tit-box{
+  font-size:0.32rem;
+  color:#030303;
+  line-height:0.60rem;
+}
+.user-center-page .uc-nav-box .one-item .tit-box .mark{
+  width:0.50rem;
+  height:0.60rem;
+  display:inline-block;
+  overflow:hidden;
+  vertical-align:middle;
+}
+.user-center-page .uc-nav-box .one-item .uc-money-icon{
+  background:url(../images/uc-money-icon.png) no-repeat 0 center;
+  background-size:0.36rem 0.36rem;  
+}
+.user-center-page .uc-nav-box .one-item .uc-card-icon{
+  background:url(../images/uc-card-icon.png) no-repeat 0 center;
+  background-size:0.38rem 0.30rem;  
+}
+.user-center-page .uc-nav-box .one-item .uc-note-icon{
+  background:url(../images/uc-note-icon.png) no-repeat 0 center;
+  background-size:0.36rem 0.36rem;  
+}
+.user-center-page .uc-nav-box .one-item .extra-box{
+  height:0.60rem;
+  overflow:hidden;
+  line-height:0.60rem;
+  text-align:right;
+  position:absolute;
+  right:0.25rem;
+  top:0;  
+}
+.user-center-page .uc-nav-box .one-item .extra-box .txt{
+  font-size:0.26rem;
+  color:#bababa;
+  vertical-align:middle;
+}
+.user-center-page .uc-nav-box .one-item .extra-box .arrow{
+  background:url(../images/right-arrow.png) no-repeat right center;
+  background-size:0.16rem 0.26rem;
+  width:0.20rem;
+  height:0.60rem;
+  display:inline-block;
+  overflow:hidden;
+  vertical-align:middle;
+  margin-left:0.05rem;
+}

@@ -1,0 +1,27 @@
+server:
+  port: 8081
+spring:
+  jmx:
+    default-domain: wechat
+  profiles:
+    active: dao
+
+#配置返回jsp start
+# 配置jsp文件的位置，默认位置为：src/main/webapp
+  mvc:
+    view:
+      prefix: /WEB-INF/
+# 配置jsp文件的后缀
+      suffix: .jsp
+  thymeleaf:
+    cache: false
+    enabled: false
+#配置返回jsp end
+
+#日志配置开始
+logging:
+  file: bdwl/wechat-logs/wechat-logs.log
+  config: classpath:wechat-log.xml
+#日志配置结束
+
+

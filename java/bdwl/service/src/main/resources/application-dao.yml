@@ -1,0 +1,27 @@
+#数据库连接配置开始
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bdwl?useUnicode=true&characterEncoding=utf8
+#    url: jdbc:mysql://47.92.236.130:3306/bdwl?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+#    password: bdwl123456
+    driver-class-name: com.mysql.jdbc.Driver
+#数据库连接配置结束
+
+#Hibernate配置开始
+# Specify the DBMS
+  jpa:
+    database: MYSQL
+# Show or not log for each sql query
+    show-sql: true
+# Hibernate ddl auto (create, create-drop, update)
+    hibernate:
+      ddl-auto: update
+# Naming strategy
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+# stripped before adding them to the entity manager
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+#Hibernate配置结束

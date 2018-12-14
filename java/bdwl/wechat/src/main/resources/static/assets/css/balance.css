@@ -1,0 +1,95 @@
+.balance-head-box{
+	background:url(../images/balance-head-bg.png) no-repeat;
+	background-size:100% 2.32rem;
+	height:3.60rem;
+	padding-top:0.70rem;
+	overflow:hidden;
+}
+.balance-head-box .main-box{
+	background:#fff;
+	width:7.00rem;
+	height:2.70rem;
+	padding-top:0.70rem;
+	border-radius:0.15rem;
+	box-shadow:0 0.10rem 0.10rem #efefef;
+	overflow:hidden;
+	margin:0 auto;
+}
+.balance-head-box .main-box span{
+	display:block;
+	overflow:hidden;
+	text-align:center;
+}
+.balance-head-box .main-box .txt{
+	font-size:0.26rem;
+	color:#bababa;
+}
+.balance-head-box .main-box .num{
+	font-size:0.72rem;
+	color:#030303;
+}
+.recharge-box{
+	padding:0.10rem 0.25rem 0.40rem 0.25rem;
+	overflow:hidden;
+}
+.recharge-box .rec-title{
+	font-size:0.30rem;
+	color:#333;
+	display:block;
+	overflow:hidden;
+	margin-bottom:0.30rem;
+}	
+.recharge-box .rec-list-box{
+	overflow:hidden;
+}
+.recharge-box .rec-list-box .one-item{
+	width:3.30rem;
+	height:1.40rem;
+	border:1px solid #ffd200;
+	border-radius:0.15rem;
+	overflow:hidden;
+	float:left;
+	margin-right:0.40rem;
+	margin-bottom:0.20rem;
+}
+.recharge-box .rec-list-box .one-item span{
+	display:block;
+	overflow:hidden;
+	text-align:center;
+}
+.recharge-box .rec-list-box .one-item .money{
+	font-size:0.36rem;
+	color:#3f3038;
+	margin-top:0.30rem;
+}
+.recharge-box .rec-list-box .one-item .tip{
+	font-size:0.22rem;
+	color:#bababa;
+	margin-top:0.02rem;
+}
+.recharge-box .rec-list-box .one-item .stress{
+	color:#ff0000;
+}
+.recharge-box .rec-list-box .one-item:nth-child(2n){
+	margin-right:0;
+}
+.recharge-box .rec-list-box .one-item.active{
+	background:#ffd200;	
+}
+.recharge-box .rec-list-box .one-item.active .tip{
+	color:#796400;	
+}
+.recharge-box .recharge-btn{
+	background:#ffd200;
+	width:5.80rem;
+	height:1.00rem;
+	border-radius:0.50rem;
+	box-shadow:0 0.05rem 0.10rem #efefef;
+	display:block;
+	overflow:hidden;
+	font-size:0.34rem;
+	color:#090707;
+	line-height:1.00rem;
+	text-align:center;
+	margin:0.60rem auto 0 auto;
+}

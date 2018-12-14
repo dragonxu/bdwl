@@ -1,0 +1,20 @@
+公众号：
+	2310485766@qq. com 
+	
+dw198255
+
+阿里云服务器：
+	47.92.236.130
+	Administrator
+	122721hmyf**
+mysql：
+	远程连接:
+		root
+		bdwl123456
+	本地连接：
+		root
+		root
+系统后台管理地址：
+	http://backstage.dfbs-vm.com/
+	admin
+	123456
